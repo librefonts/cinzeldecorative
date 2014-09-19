@@ -1,0 +1,9 @@
+commit: HEAD
+process_files: [src/CinzelDecorative-Regular-OTF.ufo, src/CinzelDecorative-Regular.ufo,
+  src/CinzelDecorative-Bold-OTF.ufo, src/CinzelDecorative-Bold.ufo, src/CinzelDecorative-Black-OTF.ufo,
+  CinzelDecorative-Regular.ttf.ttx, CinzelDecorative-Black.ttf.ttx, CinzelDecorative-Bold.ttf.ttx,
+  src/CinzelDecorative-Bold.otf.ttx, src/CinzelDecorative-Regular.otf.ttx, src/CinzelDecorative-Black.otf.ttx,
+  src/CinzelDecorative-Regular-TTF.sfd, src/CinzelDecorative-Black-TTF.sfd, src/CinzelDecorative-Bold-TTF.sfd]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
